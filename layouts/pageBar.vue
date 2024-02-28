@@ -11,7 +11,10 @@
       <div class="absolute-blue-box"></div>
 
 
-    <BarBottom :title="$slidev.configs.title" :author="$slidev.configs.author" :meeting="$slidev.configs.meeting">
+    <BarBottom 
+    :title="$slidev.configs.preTitle" 
+    :author="Object.keys($slidev.configs.authors[Object.keys($slidev.configs.authors)[0]])[0]" 
+    :meeting="$slidev.configs.meeting">
       <!-- <Item text="Yulei's GitLab">
         <carbon:logo-gitlab />
       </Item> -->
@@ -25,8 +28,6 @@
 </template>
 
 <script>
-
-
 
 </script>
 

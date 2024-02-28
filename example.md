@@ -2,7 +2,6 @@
 theme: ./
 layout: cover
 class: text-left
-title: "An examle title"
 backgroud: '/ATLAS/ATLAS-Logo.png'
 authors: 
   - First Author: ["Institution 1", "Institution 2"]
@@ -10,12 +9,28 @@ authors:
   - Third Author: ["Institution 1", "Institution 3"] # First author should be the presenter
 
 meeting: "presentation meeting"
-preTitle: "An examle title"
+preTitle: "An Examle Title"
 ---
 
 <br>
 <p style="color:#0FA3B1;">Don't explicitly put title on cover page 🥳 </p>
+<p style="color:#0FA3B1;">Put your own logo somewhere </p>
 
+<img id="ATLAS" src="/ATLAS/ATLAS-Logo.png"> </img>
+
+<style scoped>
+#ATLAS {
+  width: 180px;
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+  /* background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 15%, #146b8c 50%); */
+}
+</style>
+
+---
+layout: pageBar
 ---
 
 # What is Slidev?
@@ -36,6 +51,8 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+layout: pageBar
+---
 
 # Navigation
 
@@ -51,7 +68,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: image-right
+layout: pageBar
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 

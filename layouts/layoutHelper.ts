@@ -5,7 +5,7 @@ import type { CSSProperties } from 'vue'
  */
 export function resolveAssetUrl(url: string) {
   if (url.startsWith('/'))
-    return import.meta.env.BASE_URL + url.slice(1)
+    return import.meta.env.BASE_URL + url.slice(1)  
   return url
 }
 
@@ -36,8 +36,15 @@ export function handleBackground(background?: string, dim = false, opacity = 0.5
     backgroundSize: 'cover',
   };
 
+  console.log(style.background);
+  console.log(style.backgroundImage);
+  
+
   if (!style.background)
     delete style.background;
+
+  console.log(style);
+  
 
   return style;
 }

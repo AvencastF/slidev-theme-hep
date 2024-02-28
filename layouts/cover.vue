@@ -5,7 +5,8 @@ import { handleBackground, handleAuthor } from './layoutHelper'
 
 const props = defineProps({
   background: {
-    default: '/ATLAS/ALTAS-Detector.png',
+    type: String,
+    default: 'ATLAS/ATLAS-Detector.png',
   },
   authors: {
     type: Object as () => Record<string, string>,
@@ -25,9 +26,10 @@ const props = defineProps({
   },
 });
 
+
 const style = computed(() => handleBackground(props.background, true, 1.0));
 
-console.log(props);
+console.log(style);
 
 
 console.log('title:', props.preTitle);

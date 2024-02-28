@@ -68,7 +68,7 @@
 
 .footnote-container li {
   color: gray;
-  margin: 0.25rem 3.5rem;
+  margin: 0.05rem 3.5rem;
   font-size: 1.25rem;
 }
 
