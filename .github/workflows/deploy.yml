@@ -27,7 +27,10 @@ jobs:
           node-version: 'lts/*'
 
       - name: Install dependencies
-        run: cd /slidev-theme-hep/ && npm install
+        run: npm install
+
+      - name: Install slidev
+        run:  npm add -g @slidev/cli
 
       - name: Build
         run: npm run build -- --base /slidev-theme-hep/
