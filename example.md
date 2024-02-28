@@ -3,10 +3,10 @@ theme: ./
 layout: cover
 class: text-left
 backgroud: '/ATLAS/ATLAS-Logo.png'
-authors: 
+authors:  # First author should be the presenter
   - First Author: ["Institution 1", "Institution 2"]
   - Second Author: ["Institution 3"]
-  - Third Author: ["Institution 1", "Institution 3"] # First author should be the presenter
+  - Third Author: ["Institution 1", "Institution 3"] 
 
 meeting: "presentation meeting"
 preTitle: "An Examle Title"
@@ -98,3 +98,8 @@ class: "text-center"
 # Learn More
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+
+---
+layout: pageBar
+---

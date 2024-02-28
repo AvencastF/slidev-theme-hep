@@ -15,12 +15,6 @@
     :title="$slidev.configs.preTitle" 
     :author="Object.keys($slidev.configs.authors[Object.keys($slidev.configs.authors)[0]])[0]" 
     :meeting="$slidev.configs.meeting">
-      <!-- <Item text="Yulei's GitLab">
-        <carbon:logo-gitlab />
-      </Item> -->
-      <!-- <Item>
-        <carbon:logo-github />
-      </Item> -->
     </BarBottom>
 
     </div>

@@ -18,7 +18,7 @@ const props = defineProps({
   },
   preTitle: {
     type: String,
-    default: 'test',
+    default: 'An Example Title',
   },
   preDate: {
     type: String,

@@ -8,7 +8,7 @@
     "HEP"
   ],
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "engines": {
     "node": ">=18.0.0",
@@ -18,7 +18,7 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png --output screenshot"
   },
   "dependencies": {
     "@slidev/types": "^v0.47.5",
@@ -39,5 +39,8 @@
         "local": "Avenir Next"
       }
     }
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.42.0"
   }
 }
