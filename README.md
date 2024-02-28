@@ -8,20 +8,7 @@ An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/
 
 ### [link](https://avencastf.github.io/slidev-theme-hep/)
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
 
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
 
 ## 🛠 Install
 
