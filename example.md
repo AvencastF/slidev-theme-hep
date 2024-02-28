@@ -1,16 +1,20 @@
 ---
 theme: ./
+layout: cover
+class: text-left
+title: "An examle title"
+backgroud: '/ATLAS/ATLAS-Logo.png'
+authors: 
+  - First Author: ["Institution 1", "Institution 2"]
+  - Second Author: ["Institution 3"]
+  - Third Author: ["Institution 1", "Institution 3"] # First author should be the presenter
+
+meeting: "presentation meeting"
+preTitle: "An examle title"
 ---
 
-# Slidev Theme Starter
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+<br>
+<p style="color:#0FA3B1;">Don't explicitly put title on cover page 🥳 </p>
 
 ---
 
