@@ -9,7 +9,7 @@ authors:  # First author should be the presenter
   - Third Author: ["Institution 1", "Institution 3"] 
 
 meeting: "presentation meeting"
-preTitle: "An Examle Title"
+preTitle: "An Example Title"
 ---
 
 <br>

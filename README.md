@@ -2,23 +2,11 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-hep?color=3AB9D4&label=)](https://github.com/AvencastF/slidev-theme-hep/pkgs/npm/slidev-theme-hep)
 
-An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/slidevjs/slidev).
+An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/slidevjs/slidev). 
 
-- [slidev-theme-hep](#slidev-theme-hep)
-  - [Install](#install)
-  - [Layouts](#layouts)
-    - [Cover](#cover)
-    - [pageBar](#pagebar)
-  - [Components](#components)
-    - [`TextBox`](#textbox)
-      - [Props](#props)
-      - [Styling](#styling)
-    - [`PlotlyGraph`](#plotlygraph)
-      - [Props](#props-1)
-      - [Usage](#usage)
-      - [Example](#example)
-  - [Contributing](#contributing)
+## ❤️‍🔥 Demo
 
+### [link](avencastf.github.io/slidev-theme-hep/)
 
 <!--
   Learn more about how to write a theme:
@@ -35,7 +23,7 @@ An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/
   Live demo: [...]
 -->
 
-## Install
+## 🛠 Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
@@ -45,7 +33,7 @@ theme: <b>hep</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-## Layouts
+## 💼 Layouts
 
 This theme provides the following layouts:
 
@@ -90,7 +78,7 @@ The key parts of this layout are:
 
 ---
 
-## Components
+## 🗿 Components
 
 This theme provides the following components:
 
