@@ -4,8 +4,12 @@
   "type": "module",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "HEP"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "engines": {
     "node": ">=18.0.0",
     "slidev": ">=0.47.0"
