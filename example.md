@@ -91,6 +91,52 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: pageBar
+---
+
+# 2-D Plotly Examples
+
+Two 2D plots for display
+
+Try to interact with the graphs 🥰
+
+<div grid="~ cols-2 gap-20">
+
+<Transform :scale="0.75">
+<PlotlyGraph filePath="Graph/plotly1.json" tickFontSize="18" graphWidth="800"/>
+</Transform>
+
+<Transform :scale="0.75">
+<PlotlyGraph filePath="Graph/plotly1.json" tickFontSize="18" graphWidth="800"/>
+</Transform>
+
+</div>
+
+
+---
+layout: pageBar
+---
+
+# 3-D Plotly Examples
+
+Two 3D plots for display
+
+Try to interact with the graphs 🥰
+
+<div grid="~ cols-2 gap-20">
+
+<Transform :scale="0.65">
+<PlotlyGraph filePath="Graph/plotly2.json" graphWidth="900"/>
+</Transform>
+
+<Transform :scale="0.65">
+<PlotlyGraph filePath="Graph/plotly3.json" graphWidth="900"/>
+</Transform>
+
+</div>
+
+
+---
 layout: center
 class: "text-center"
 ---
