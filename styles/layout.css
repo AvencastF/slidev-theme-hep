@@ -54,15 +54,19 @@
   
 }
 
-.slidev-layout.intro {
-  @apply h-full grid;
+.slidev-layout.pageBar {
+  /* @apply h-full grid; */
 
   h1 {
-    @apply text-6xl leading-20;
+    font-size: 50px;
+
+    padding: 0.15rem 0;
   }
 
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply -mt-1 opacity-50 mb-4;
+
+    font-size: 1.25rem;
   }
 
   p + h2,
