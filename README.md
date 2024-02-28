@@ -6,7 +6,7 @@ An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/
 
 ## ❤️‍🔥 Demo
 
-### [link](avencastf.github.io/slidev-theme-hep/)
+### [link](https://avencastf.github.io/slidev-theme-hep/)
 
 <!--
   Learn more about how to write a theme:
