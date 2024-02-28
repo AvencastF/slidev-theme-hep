@@ -1,6 +1,6 @@
 # slidev-theme-hep
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-hep?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-hep)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-hep?color=3AB9D4&label=)](https://github.com/AvencastF/slidev-theme-hep/pkgs/npm/slidev-theme-hep)
 
 A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
 
