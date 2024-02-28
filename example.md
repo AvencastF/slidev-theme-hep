@@ -71,24 +71,58 @@ Hover on the bottom-left corner to see the navigation's controls panel
 layout: pageBar
 ---
 
-# Code
+# The Lagrangian
 
-Use code snippets and get the highlighting directly!
+The mathematical formulation of the Standard Model of particle physics
 
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
+
+The Standard Model of particle physics is a **quantum field theory**. 
+Therefore, its <span style="color:#ac1944;">fundamental elements are quantum fields</span> and the excitations of these fields are *identified* as **particles**.
+All information is encoded in a compact description—the so-called ‘Lagrangian’ ( $\mathcal{L}$ ), which is an extremely compact notation.
+
+In the physics classroom, however, it is very difficult to achieve a deep-level understanding because the required mathematics skills go far beyond high-school level. Hence, we will only treat the ultra-short Lagrangian as below:
+$$
+\mathcal{L} = \color{#9d6fa5}{ -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} } 
+              + \color{#c90024}{ i\bar{\psi} {\mathcal{D}}\!\!\!\!/ \psi }
+              + \mathrm{h.c.} 
+              + \color{#296b4c}{ \psi_i y_{ij} \psi_j \phi }
+              + \mathrm{h.c.} 
+              + \color{#4d45cc}{ |\mathcal{D}_{\mu} \phi |{ }^2 }
+              - \color{#fe7b26}{ V(\phi) }
+$$
+
+<div class="grid grid-cols-3 gap-5 items-center justify-center">
+
+<div class="col-span-2">
+
+> - <span style="color: #9d6fa5"> $F_{\mu\nu} F^{\mu\nu}$: This term is the scalar product of the field strength tensor $F_{\mu\nu}$ containing the mathematical encoding of all interaction particles except the Higgs boson. It contains the necessary formulation for these particles to even exist, and describes how they interact with each other. </span>
+> - <span style="color: #c90024"> $i\bar{\psi} {\mathcal{D}}\!\!\!\!/ \psi$: This term describes how interaction particles interact with matter particles. The fields $\psi$ and $\bar{\psi}$ describe (anti)quarks and (anti)leptons. </span>
+> - <span style="color: #296b4c"> $\psi_i y_{ij} \psi_j \phi$: This term describes how matter particles couple to the Brout–Englert–Higgs field $\psi$ and thereby obtain mass. </span>
+> - <span style="color: #4d45cc"> $|\mathcal{D}_{\mu} \phi |{ }^2$: This term describes how the interaction particles couple to the BEH field. This applies only to the interaction particles of the weak interaction ($W^{\pm}, Z$), which thereby obtain their mass. </span>
+> - <span style="color: #fe7b26"> $V(\phi)$: This term describes the potential of the BEH field.  </span>
+
+</div>
+<div class="col-span-1">
+
+<Transform :scale="1.0">
+<img src="https://www.quantumdiaries.org/wp-content/uploads/2011/06/cernmug.jpg"/>
+</Transform>
+
+</div>
+
+</div>
+
+<style scoped>
+.slidev-layout blockquote {
+  font-size: 1rem;
 }
 
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
+li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
-```
+
+</style>
 
 ---
 layout: pageBar
