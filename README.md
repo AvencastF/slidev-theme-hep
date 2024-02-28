@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-hep?color=3AB9D4&label=)](https://github.com/AvencastF/slidev-theme-hep/pkgs/npm/slidev-theme-hep)
 
-An aacdemic theme for High Energy Physics (HEP) for [Slidev](https://github.com/slidevjs/slidev).
+An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
@@ -38,14 +38,14 @@ This theme provides the following layouts:
 
 <!-- ![sc-cover](screenshot/001.png) -->
 
-| **Parameter** | **Type**                          | **Default**                  | **Notes**                    |
-| ------------- | --------------------------------- | ---------------------------- | ---------------------------- |
-| `background`  | `string`                          | `'ATLAS/ATLAS-Detector.png'` |                              |
-| `authors`     | `[authorName: string]: string[];` | `{}`                         | See examples below           |
-| `meeting`     | `string`                          | `''` (empty string)          | Meeting of this presentation |
-| `preTitle`    | `string`                          | `'An Example Title'`         | Title of the presentation    |
+| **Parameter** | **Type**                          | **Default**                       | **Notes**                                              |
+| ------------- | --------------------------------- | --------------------------------- | ------------------------------------------------------ |
+| `background`  | `string`                          | `'ATLAS/ATLAS-Detector.png'`      |                                                        |
+| `authors`     | `[authorName: string]: string[];` | `{}`                              | See examples below                                     |
+| `meeting`     | `string`                          | `''` (empty string)               | Meeting of this presentation                           |
+| `preTitle`    | `string`                          | `'An Example Title'`              | Title of the presentation                              |
+| `preDate`     | `string`                          | `new Date().toLocaleDateString()` | Automatically generated as the current localized date. |
 
-The `datatime` is automatically generated 
 
 The authors and the corresponding affiliation can be configured as below:
 ```yaml
@@ -141,7 +141,7 @@ The component accepts the following props for configuration:
 To use the `PlotlyGraph` component, you must provide the `filePath` prop with a valid URL or path to a Plotly configuration file. 
 Other props are optional and allow you to customize the appearance of the graph.
 
-**It's highly recommended to produce the json file for plotting by [Plotly](https://plotly.com/python/) in python.**
+**It's highly recommended to produce the JSON file for plotting by [Plotly](https://plotly.com/python/) in Python.**
 
 #### Example
 
