@@ -4,6 +4,22 @@
 
 An academic theme for High Energy Physics (HEP) for [Slidev](https://github.com/slidevjs/slidev).
 
+- [slidev-theme-hep](#slidev-theme-hep)
+  - [Install](#install)
+  - [Layouts](#layouts)
+    - [Cover](#cover)
+    - [pageBar](#pagebar)
+  - [Components](#components)
+    - [`TextBox`](#textbox)
+      - [Props](#props)
+      - [Styling](#styling)
+    - [`PlotlyGraph`](#plotlygraph)
+      - [Props](#props-1)
+      - [Usage](#usage)
+      - [Example](#example)
+  - [Contributing](#contributing)
+
+
 <!--
   Learn more about how to write a theme:
   https://sli.dev/themes/write-a-theme.html
@@ -36,7 +52,7 @@ This theme provides the following layouts:
 
 ### Cover
 
-<!-- ![sc-cover](screenshot/001.png) -->
+![sc-cover](screenshot/001.png)
 
 | **Parameter** | **Type**                          | **Default**                       | **Notes**                                              |
 | ------------- | --------------------------------- | --------------------------------- | ------------------------------------------------------ |
