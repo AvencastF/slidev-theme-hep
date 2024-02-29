@@ -1,14 +1,15 @@
 {
-  "name": "@AvencastF/slidev-theme-hep",
-  "version": "0.1.0",
+  "name": "@avencastf/slidev-theme-hep",
+  "version": "0.1.1",
   "type": "module",
   "keywords": [
     "slidev-theme",
     "slidev",
     "HEP"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:AvencastF/slidev-theme-hep.git"
   },
   "engines": {
     "node": ">=18.0.0",
