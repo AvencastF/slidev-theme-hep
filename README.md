@@ -158,3 +158,7 @@ Other props are optional and allow you to customize the appearance of the graph.
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
+
+
+
+[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FAvencastF%2Fslidev-theme-hep&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FAvencastF%2Fslidev-theme-hep)
